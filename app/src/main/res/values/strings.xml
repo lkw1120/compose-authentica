@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Authentica</string>
+
+    <!-- Common -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="content_desc_go_back">Go back</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Authentica</string>
+    <string name="home_empty_title">Secure your first account</string>
+    <string name="home_empty_subtitle">Tap + to add OTP account</string>
+    <string name="home_search_empty_title">No matching accounts</string>
+    <string name="home_search_empty_subtitle">Try a different issuer or account name</string>
+    <string name="home_search_placeholder">Search accounts</string>
+    <string name="home_search_close_desc">Close search</string>
+    <string name="home_search_desc">Search</string>
+    <string name="home_settings_desc">Settings</string>
+    <string name="home_code_copied">Code copied</string>
+    <string name="home_fab_add_desc">Add account</string>
+    <string name="home_fab_scan">Scan</string>
+    <string name="home_fab_manual">Manual</string>
+
+    <!-- Auth / Lock Screen -->
+    <string name="auth_loading">Loading…</string>
+    <string name="auth_screen_lock_required_title">Screen lock required</string>
+    <string name="auth_screen_lock_required_body">Set up a PIN, password, or biometric in device settings to use Authentica.</string>
+    <string name="auth_open_settings">Open Settings</string>
+    <string name="auth_unlock_required_title">Unlock required</string>
+    <string name="auth_unlock_button">Unlock</string>
+    <string name="auth_biometric_title">Unlock Authentica</string>
+    <string name="auth_biometric_subtitle">Authenticate to access OTP vault</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_app_name">Authentica</string>
+    <string name="settings_app_tagline">OTP Authenticator</string>
+    <string name="settings_app_version">App version</string>
+    <string name="settings_app_theme">App theme</string>
+    <string name="settings_require_unlock">Require unlock</string>
+    <string name="settings_require_unlock_subtitle">At app launch</string>
+    <string name="settings_export_accounts">Export accounts</string>
+    <string name="settings_export_accounts_subtitle">Create encrypted backup file</string>
+    <string name="settings_import_accounts">Import accounts</string>
+    <string name="settings_import_accounts_subtitle">Restore from backup file</string>
+    <string name="settings_open_source_licenses">Open source licenses</string>
+    <string name="settings_choose_theme_title">Choose app theme</string>
+
+    <!-- Manual Input Screen -->
+    <string name="manual_title">Manual Input</string>
+    <string name="manual_section_title">Add account details</string>
+    <string name="manual_section_subtitle">Enter issuer and account label, then paste the Base32 secret.</string>
+    <string name="manual_section_account">Account</string>
+    <string name="manual_field_issuer">Issuer</string>
+    <string name="manual_field_account_name">Account Name</string>
+    <string name="manual_field_secret">Base32 Secret</string>
+    <string name="manual_section_code_options">Code options</string>
+    <string name="manual_field_digits">Digits</string>
+    <string name="manual_field_period">Period (seconds)</string>
+    <string name="manual_save_button">Save account</string>
+
+    <!-- Edit Account Bottom Sheet -->
+    <string name="edit_account_title">Edit account</string>
+
+    <!-- Backup Sheets -->
+    <string name="backup_export_title">Export backup</string>
+    <string name="backup_export_password_label">Backup password</string>
+    <string name="backup_export_confirm_password_label">Confirm password</string>
+    <string name="backup_export_password_strength">Password strength: %s</string>
+    <string name="backup_export_password_hint">Use at least 8 characters. This password is required for import.</string>
+    <string name="backup_export_button">Export</string>
+    <string name="backup_import_title">Import backup</string>
+    <string name="backup_import_password_label">Backup password</string>
+    <string name="backup_import_password_hint">Enter the password used when exporting this backup.</string>
+    <string name="backup_import_button">Import</string>
+
+    <!-- Backup Result Toasts -->
+    <string name="backup_export_success">Export completed</string>
+    <string name="backup_export_failure">Export failed</string>
+    <string name="backup_import_success">Imported %d accounts</string>
+    <string name="backup_import_failure">Import failed</string>
+
+    <!-- Password Strength Labels -->
+    <string name="password_strength_weak">Weak</string>
+    <string name="password_strength_medium">Medium</string>
+    <string name="password_strength_strong">Strong</string>
+
+    <!-- Swipe Actions -->
+    <string name="swipe_action_edit">Edit</string>
+    <string name="swipe_action_delete">Delete</string>
+
+    <!-- Delete Confirmation -->
+    <string name="delete_confirm_title">Delete account?</string>
+    <string name="delete_confirm_body">This account will be permanently removed and cannot be recovered.</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Manual Input Validation -->
+    <string name="manual_digits_error">Must be between 6 and 8</string>
+    <string name="manual_period_error">Must be at least 1 second</string>
+
+    <!-- Error Messages -->
+    <string name="error_fill_required_fields">Please fill all required fields</string>
+    <string name="error_uri_required">URI is required</string>
+    <string name="error_update_account">Failed to update account</string>
+    <string name="error_delete_account">Failed to delete account</string>
+    <string name="error_reorder_accounts">Failed to reorder accounts</string>
+    <string name="error_add_account">Failed to add account</string>
+    <string name="error_invalid_uri">Invalid OTP URI</string>
+</resources>
